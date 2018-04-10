@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+		<tr>
+			<td align="center" bgcolor="#cccccc">
+			<a href="/web09/">HOME</a>
+			<a href="<%=linkPath %>/list.jsp">GUEST</a>
+			<a href="guest/login.jsp">LOGIN</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<!-- content start -->

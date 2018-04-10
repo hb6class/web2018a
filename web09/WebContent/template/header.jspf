@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ page import="java.sql.*, com.day06.bean.GuestBean, com.day06.util.MyOracle" %>
+<%!
+	Connection conn=null;
+	Statement stmt=null;
+	ResultSet rs=null;
+
+%>
+	<table width="1024" align="center">
+		<tr>
+			<td>
+			<img alt="logo" src="<%=imgPath %>/imgs/logo.jpg">
+			</td>
+		</tr>
