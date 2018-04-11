@@ -1,0 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+	<table width="1024" align="center">
+		<tr>
+			<td>
+				<img alt="logo" src="../imgs/logo.jpg">
+				<%
+					System.out.println(path);
+				%>
+			</td>
+		</tr>
